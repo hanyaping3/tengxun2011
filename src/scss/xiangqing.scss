@@ -42,7 +42,7 @@
     width:40px;
     height:40px;
     display: inline-block;
-    background: url(../../img/search.png) no-repeat 5px 10px;
+    background: url(../img/search.png) no-repeat 5px 10px;
     position: absolute;
     margin-left:10px   
 }
@@ -50,14 +50,14 @@
     width:25px;
     height:30px;
     display: inline-block;
-    background: url(../../img/denglu.png) no-repeat ;
+    background: url(../img/denglu.png) no-repeat ;
     margin-right:5px
 }
 #head-info .icon-g{
     width:25px;
     height:30px;
     display: inline-block;
-    background: url(../../img/cart.png) no-repeat;
+    background: url(../img/cart.png) no-repeat;
     margin-right:5px
 }
 #denglu,#gouwu{
@@ -104,7 +104,7 @@
     cursor: pointer;
 }
 #nav-con>ul li:hover{
-    background: url(../../img/beijing.png) no-repeat;
+    background: url(../img/beijing.png) no-repeat;
     background-size: 100% 100%
 }
 
@@ -120,7 +120,7 @@
     height:14px;
     display: inline-block;
     margin:0 10px;
-    background: url(../../img/xuebi1.png) -100px -2px; 
+    background: url(../img/xuebi1.png) -100px -2px; 
 }
 
 /* 隐藏的菜单栏 */
@@ -308,7 +308,7 @@
     font-size: 14px;
     color: #888;
     text-indent: 16px;
-    background: url(../../img/heart.png) no-repeat 8px 8px;
+    background: url(../img/heart.png) no-repeat 8px 8px;
     border: 1px solid #ddd;
     padding: 6px 20px;
     border-radius: 14px
