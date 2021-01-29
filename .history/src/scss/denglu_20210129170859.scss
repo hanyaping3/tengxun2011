@@ -1,0 +1,94 @@
+@charset "utf-8";
+#logo{
+    position: fixed;
+    top:10px;
+    left:10px;
+}
+#wrap{
+    width:635px;
+    height:500px;
+    margin:150px auto;
+    border: 1px solid #ddd;
+    // background: skyblue;
+    text-align: center;
+    position: relative;
+}
+#wrap-top li{
+    float: left;
+    width:311px;
+    height:53px;
+    line-height: 55px;
+    background: #F1F1F1;
+    color: #aaa;
+    border: 1px solid #ccc;
+    padding: 2px;
+    cursor: pointer;
+}
+#wrap p{
+    font-size: 14px;
+    line-height: 46px;
+    color: #bbb
+}
+#form-qq{
+    width:635px;
+    position: absolute;
+    // display: none;
+}
+#form-qq h2{
+    font-size: 20px;
+    margin-top: 54px;
+}
+#form-qq input{
+    outline: none;
+    width:270px;
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:15px 0;
+    color: #bbb;
+    text-indent: 20px
+}
+#form-qq .btn-deng{
+    width:270px;
+    height:40px;
+    line-height:40px;
+    font-size: 20px;
+    background: #86ce2f;
+    border-radius: 5px;
+    margin-left:182px;
+}
+#form-qq .btn-deng a{
+    color: #fff;
+}
+#form-qq .toreg{
+    margin-top:100px;
+    margin-left:500px;
+    font-size: 14px
+}
+#form-qq .toreg a{
+    color: #000;
+}
+#form-weixin{
+     display: none;
+}
+#form-weixin h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#form-weixin img{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width:260px;
+    height:260px;
+}
+#form-weixin h3{
+    font-size: 12px;
+    line-height: 26px;
+}
+.showqq{
+    background: #31a4f6;
+    color: #fff
+}
+.showxin{
+    
+}

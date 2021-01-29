@@ -1,0 +1,31 @@
+//轮播图
+body{
+    position: relative;
+}
+#banner{
+    width:480px;
+    height:727px;
+    overflow: hidden;
+    position: relative;
+}
+#imgbox{
+    width:9999px
+}
+#banner ul li{
+    float:left
+}
+#banner li img{
+    width:480px;
+}
+#textbox{
+    width:772px;
+    height:800px;
+    position: absolute;
+    left:770px;
+    top:0;
+    background: #666;
+}
+#textbox-top li{
+    float:right;
+
+}

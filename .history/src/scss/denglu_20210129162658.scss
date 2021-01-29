@@ -1,0 +1,35 @@
+@charset "utf-8";
+#wrap{
+    width:635px;
+    height:500px;
+    margin:150px auto;
+    border: 1px solid #ddd;
+    background: skyblue;
+    text-align: center;
+}
+#wrap-top li{
+    float: left;
+    width:311px;
+    height:53px;
+    line-height: 55px;
+    text-align: center;
+    background: #F1F1F1;
+    color: #d1d1d1;
+    border: 1px solid #ccc;
+    padding: 2px
+}
+#wrap p{
+    font-size: 14px;
+    line-height: 46px;
+}
+#form-qq h2{
+    font-size: 20px;
+    margin-top: 54px;
+}
+#form-qq input{
+    width:270px;
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:15px
+}

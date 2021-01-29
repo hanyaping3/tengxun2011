@@ -1,0 +1,49 @@
+//轮播图
+body{
+    position: relative;
+}
+#banner{
+    width:480px;
+    height:727px;
+    overflow: hidden;
+    position: relative;
+}
+#imgbox{
+    width:9999px;
+}
+#banner ul li{
+    float:left
+}
+#banner li img{
+    width:480px;
+}
+#textbox{
+    width:772px;
+    height:800px;
+    position: absolute;
+    left:770px;
+    top:0;
+    background: #666;
+}
+#textbox-top li{
+    float:right;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 30px 40px 0 5px;
+
+}
+#textbox-top .lianghao{
+    border-radius: 6px;
+    background: #f54444;
+    color: #fff;
+    padding-right:10px
+}
+// #textbox-top .lianghao img{
+//     transform: translateY(-10px);
+// }
+#textbox-main{
+    margin-top:110px
+}
+#
