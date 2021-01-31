@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <div id="logo">
+        <img src="img/r4.png" alt="">
+    </div>
+    <div id="banner">
+        <ul id="imgbox">
+            <li>
+                <img src="img/r8.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/r88.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/r888.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+    <div id="textbox">
+        <div id="textbox-top">
+            <li class="yijian">意见反馈</li>
+            <li class="zhongwen">简体中文</li>
+            <li class="lianghao">
+                <img src="img/r1.png">QQ靓号</li>
+
+
+        </div>
+        <div id="textbox-main">
+            <div class="text">
+                <div class="welcome">欢迎注册QQ</div>
+                <div class="dwelcome">每一天，乐在沟通。
+                    <a href="">免费靓号</a>
+                </div>
+
+            </div>
+            <div class="form">
+                <div>
+                    <input type="text" placeholder="昵称">
+                </div>
+                <div>
+                    <input type="text" placeholder="密码">
+                </div>
+                <div>
+                    <input type="text" placeholder="手机号码">
+                </div>
+                <div class="reg">
+                    <a href="" id="">立即注册</a>
+                </div>
+                <div class="agreement">
+                    <i></i>
+                    我已阅读并同意相关服务条款和隐私政策
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script>
+
+            $("#login").click(function () {
+                let http = new XMLHttpRequest;
+                http.open("get", `http://10.35.161.136:8080/adduser?username=${$("#username").val()}&password=${$("#password").val()}`)
+                // http.open("get", `http://192.168.0.103:8080/adduser?username=${$("#username").val()}&password=${$("#password").val()}`)
+                
+                http.send();
+                http.onreadystatechange = function () {
+                    if (http.readyState === 4) {
+                        if(http.responseText==="success"){
+                            alert("注册成功，去登陆")
+                            location.href="http://10.35.161.136/work/work27/login.html"
+                        }
+                        else{
+                            alert("注册失败")
+                        }
+                    }
+                }
+        
+            })</script>
+</body>
+
+</html>
